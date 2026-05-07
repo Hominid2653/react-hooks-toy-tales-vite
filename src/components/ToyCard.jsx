@@ -1,6 +1,6 @@
 import React from "react";
 
-function ToyCard({ toy, likeToy }) {
+function ToyCard({ toy, likeToy, deleteToy }) {
   function handleLike() {
     fetch(`http://localhost:3001/toys/${toy.id}`, {
       method: "PATCH",
@@ -15,6 +15,17 @@ function ToyCard({ toy, likeToy }) {
       .then((updatedToy) => likeToy(toy.id));
   }
 
+  function handleDelete() {
+    fetch(`http://localhost:3001/toys/${toy.id}`, {
+      method: "DELETE",
+    })
+      .then((r) => {
+        if (r.ok) {
+          deleteToy(toy.id);
+        }
+      });
+  }
+
   return (
     <div className="card" data-testid="toy-card">
       <h2>{toy.name}</h2>
@@ -27,7 +38,7 @@ function ToyCard({ toy, likeToy }) {
       <button className="like-btn" onClick={handleLike}>
         Like {"<3"}
       </button>
-      <button className="del-btn">Donate to GoodWill</button>
+      <button className="del-btn" onClick={handleDelete}>Donate to GoodWill</button>
     </div>
   );
 }

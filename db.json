@@ -16,7 +16,7 @@
       "id": "3",
       "name": "Mr. Potato Head",
       "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
+      "likes": 4
     },
     {
       "id": "4",
@@ -28,7 +28,7 @@
       "id": "5",
       "name": "Rex",
       "image": "https://static.wikia.nocookie.net/pixar/images/a/a8/Rex_%28Toy_Story%29.png/revision/latest/scale-to-width-down/377?cb=20210221010941",
-      "likes": 1
+      "likes": 2
     },
     {
       "id": "6",
@@ -40,25 +40,19 @@
       "id": "7",
       "name": "Hamm",
       "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
-      "likes": 0
+      "likes": 1
     },
     {
       "id": "8",
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "likes": 2
     },
     {
       "id": "c73c",
       "name": "Pokemon Pikachu",
       "image": "https://icon2.cleanpng.com/lnd/20241122/tq/1a4b1ba611b47720acc2c711c36b42.webp",
-      "likes": 0
-    },
-    {
-      "id": "80d9",
-      "name": "Pokemon Snorlax",
-      "image": "https://icon2.cleanpng.com/lnd/20241122/vj/e9828c19653f4e55b867cce6695870.webp",
-      "likes": 0
+      "likes": 10
     }
   ]
 }
